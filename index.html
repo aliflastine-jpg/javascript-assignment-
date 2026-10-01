@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>SpendWise</h1>
+        <p>Track your income and expenses in one place.</p>
+
+        <label for="budget">Total Budget</label>
+        <input type="number" id="budget" placeholder="Enter your budget">
+
+        <label for="expenses">Total Expenses</label>
+        <input type="number" id="expenses" placeholder="Enter your expenses">
+
+        <button onclick="calculateBudget()">Calculate Balance</button>
+
+        <div id="result">
+            Your balance will appear here.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
